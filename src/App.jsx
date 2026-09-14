@@ -58,16 +58,6 @@ export default function App() {
 
         {/* 7. CTA Banner (Ship & Badges) */}
         <CTASection onOpenModal={() => openModal()} />
-
-        {/* 8. Latest Insights (Market Insights Card) - Hidden on mobile & medium screens */}
-        <div className="hidden lg:block">
-          <LatestInsights onOpenModal={() => openModal()} />
-        </div>
-
-        {/* 9. Get a Quote Form - Hidden on mobile & medium screens */}
-        <div className="hidden lg:block">
-          <QuoteSection />
-        </div>
       </main>
 
       {/* 10. Footer (With Mobile Accordions) */}

@@ -2,7 +2,7 @@ import React from "react";
 import { ArrowRight, Globe, Box, Handshake } from "lucide-react";
 import { motion } from "framer-motion";
 
-const BG_IMAGE = "/OUR GLOBAL NETWORK-bg.png";
+const BG_IMAGE = encodeURI("/OUR GLOBAL NETWORK-bg.webp");
 
 const STATS = [
   { icon: Globe, label: "Multiple Countries" },
